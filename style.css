@@ -1,0 +1,117 @@
+body{
+  font-family: "Roboto",Open-Sans,Helvetica;
+  height:900px;
+  background-color: #e3dee1;
+}
+.inner1{
+  height: 900px;
+}
+.header{
+  background: linear-gradient(90deg,#a3ceff,#ffffff);
+  padding:1em 10em 1em 5em;
+  margin:-1em;
+  position: fixed;
+  top:0%;
+  width:100%;
+  color:#3e82cf;
+  z-index: 45;
+}
+.heading{
+  margin-left:2em;
+  position:relative;
+  top:0em;
+}
+.navbar{
+}
+.navlink{
+  padding:2em;
+  position: relative;
+  text-decoration: none;
+  color:#3e82cf;
+}
+.navlink:hover{
+  animation-name:navLinkAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; 
+}
+@keyframes navLinkAnimation{
+  100%{
+    color:#002652;
+  }
+}
+@keyframes onfocus{
+  100%{
+    opacity: 100;
+  }
+
+}
+
+
+.mainIMG{
+  width:101%;
+  margin-left:-1em;
+  margin-right:-1em;
+}
+#logo{
+  position: absolute;
+  top:15px;
+  left:100px;
+  height:5em;
+  width:5em;
+}
+.footer{
+  background: linear-gradient(90deg,#a3ceff,#ffffff);
+  position: relative;
+  top:0em;
+  margin:-1em;
+  height:10em;
+  z-index: 45;
+}
+.content{
+  color:#353538;
+  position: relative;
+  top:2em
+}
+#welcome{
+  position: relative;
+  top:0em;
+}
+.subhead{
+  font-size: 30px;
+  margin-left: 1em;
+}
+.subhead:hover{
+  animation-name: BIG;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes BIG{
+  100%{
+    font-size:35px;
+  }
+}
+#front{
+  height:50em;
+  background: linear-gradient(180deg,#00b7fa,#91c1ff);
+  margin:-1em;
+}
+#quote{
+  color:#002652;
+  font-size: 80px;
+  margin-left: 3em;
+  position: relative;
+  top:3em;
+  text-align: justify;
+}
+
+#qp2{
+  margin-left:2em;
+}
+.slide{
+  position: absolute;
+  top:5em;
+  left:41%;
+}
+#slide1{
+  height:45em;
+}
